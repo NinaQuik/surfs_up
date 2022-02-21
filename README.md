@@ -1,5 +1,6 @@
 # surfs_up
-Data retrieval and display using SQLAlchemy, SQLite and Flask
+Data retrieval and display using SQLAlchemy, SQLite and Flask.
+
 Statistical analysis on queried data using min, max, mean, standard deviation.
 
 ## Overview
@@ -20,4 +21,6 @@ Using SQLalchemy, two queries are run against the SQLite db containing weather i
 |![June Temps](/Resources/June_temps.png)  |                 ![December Temps](/Resources/December_temps.png)|
 
 As you can see from the analysis
-- Temperatures are moderately cooler in december, although they average 71 degrees Fahrenheit.  Average June temperatures are close to 75 degrees.
+- Temperatures are nice in both December and June.  It is moderately cooler in December with an average temperature of 71 degrees Fahrenheit, while June tends to be on average four degrees warmer.
+- There is slightly more variance in temperatures in December than June.  December has a standard deviation of 3.75; June temps have a 3.26 standard deviation.  The lower quartile in December may be cool for ice cream, although not for many people coming from less temperate climates.
+- There are more temperature recordings in June (1700) than December (1517) despite December being a longer month. 
